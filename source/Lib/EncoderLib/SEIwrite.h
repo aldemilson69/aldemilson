@@ -116,6 +116,9 @@ protected:
   void xWriteSEIGreenMetadataInfo                 (const SEIGreenMetadataInfo &sei);
 #endif
   void xWriteSEIPostFilterHint(const SEIPostFilterHint &sei);
+#if JVET_AG2034_SPTI_SEI
+  void xWriteSEISourcePictureTimingInfo(const SEISourcePictureTimingInfo& sei);
+#endif
 protected:
   HRD m_nestingHrd;
 };

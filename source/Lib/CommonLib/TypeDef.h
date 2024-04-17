@@ -67,6 +67,8 @@
 
 #define JVET_AG0089_TEMPORAL_EXTRAPOLATION                1 // JVET-AG0089: AHG9: Temporal extrapolation purpose for the neural-network post-filter characteristics SEI message
 
+#define JVET_AG2034_SPTI_SEI 1 //JVET-AE0079, JVET-AF0055, JVET-AF0069, JVET-AF0097, JVET-AG0191, JVET-AG0188 
+
 //########### place macros to be be kept below this line ###############
 
 #define GDR_ENABLED   1
